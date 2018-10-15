@@ -1,8 +1,8 @@
 # 准备宿主系统
 ### 1、下载Ubuntu系统
-<a href="https://www.ubuntu.com/download/desktop">Ubuntu官网</a>
+下载[Ubuntu系统](https://www.ubuntu.com/download/desktop)
 ### 2、下载VirtualBox软件
-<a href="https://www.virtualbox.org/">VirtualBox官网</a>
+下载[VirtualBox](https://www.virtualbox.org/)
 ### 3、挂载ubuntu系统ISO镜像，打开“试用模式”
 ### 4、更新软件源
 ```bash
@@ -65,4 +65,49 @@ chmod -v a+wt $LFS/sources
 ```
 ### 9、下载并校验软件包
 *获取[lfs8.3源代码包](http://mirror.jaleco.com/lfs/pub/lfs/lfs-packages/lfs-packages-8.3.tar)*
+```bash
+tar xvf lfs-packages-8.3.tar -C $LFS/sources
+mv $LFS/sources/8.3/* $LFS/sources/
 
+pushd $LFS/sources
+md5sum -c md5sums
+popd
+```
+### 10、创建编译工具链目录
+```bash
+mkdir -v $LFS/tools
+ln -sv $LFS/tools /
+```
+### 11、添加编译用户配置（root权限太高，可能会损坏宿主机）
+```bash
+groupadd lfs
+useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+```
+*修改lfs用户密码*
+```bash
+passwd lfs
+```
+```bash
+chown -v lfs $LFS/tools
+chown -v lfs $LFS/sources
+```
+*切换到lfs用户，配置用户环境变量*
+```bash
+su - lfs
+
+cat > ~/.bash_profile << "EOF"
+exec env -i HOME=$HOME TERM=$TERM PS1='\u:\w\$ ' /bin/bash
+EOF
+
+cat > ~/.bashrc << "EOF"
+set +h
+umask 022
+LFS=/mnt/lfs
+LC_ALL=POSIX
+LFS_TGT=$(uname -m)-lfs-linux-gnu
+PATH=/tools/bin:/bin:/usr/bin
+export LFS LC_ALL LFS_TGT PATH
+EOF
+
+source ~/.bash_profile
+```
