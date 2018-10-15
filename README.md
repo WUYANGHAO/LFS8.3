@@ -2,7 +2,7 @@
 LFS8.3 By *WuYanghao*
 ## 目录
 #### 1.[准备宿主系统](Guide/001-prepare-host-system.md)
-#### 2.[编译临时系统](Guide/002-prepart-tmp-system.md)
+#### 2.[编译临时系统](Guide/002-prepare-tmp-system.md)
 #### 3.[创建LFS系统](Guide/003-build-lfs-system.md)
 #### 4.[配置LFS系统](Guide/004-configure-lfs-system.md)
 #### 5.[设置LFS系统启动](Guide/005-make-bootable-lfs-system.md)
