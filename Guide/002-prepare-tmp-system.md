@@ -43,7 +43,7 @@ echo $LFS
 #### 28.[Tar-1.30](tmp-system/028-tar.md)———0.4 SBU
 #### 29.[Texinfo-6.5](tmp-system/029-texinfo.md)———0.2 SBU
 #### 30.[Util-linux-2.32.1](tmp-system/030-util.md)———1 SBU
-#### 31.[Xz-5.2.4](tmp-system/031-xz.com)———0.2 SBU
+#### 31.[Xz-5.2.4](tmp-system/031-xz.md)———0.2 SBU
 #### 32.[Stripping](tmp-system/032-stripping.md)
 #### 33.[Changing Ownership](tmp-system/033-change-ownership.md)
 ------------------------------------------------
