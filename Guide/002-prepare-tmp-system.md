@@ -44,7 +44,17 @@ echo $LFS
 #### 29.[Texinfo-6.5](tmp-system/029-texinfo.md)———0.2 SBU
 #### 30.[Util-linux-2.32.1](tmp-system/030-util.md)———1 SBU
 #### 31.[Xz-5.2.4](tmp-system/031-xz.md)———0.2 SBU
-#### 32.[Stripping](tmp-system/032-stripping.md)
-#### 33.[Changing Ownership](tmp-system/033-change-ownership.md)
+### Stripping
+```bash
+cd $LFS
+strip --strip-debug /tools/lib/*
+/usr/bin/strip --strip-unneeded /tools/{,s}bin/*
+rm -rf /tools/{,share}/{info,man,doc}
+find /tools/{lib,libexec} -name \*.la -delete
+```
+### 更改工具链属组（root用户下执行）
+```bash
+chown -R root:root $LFS/tools
+```
 ------------------------------------------------
 *[[上一页](001-prepare-host-system.md)]  [[下一页](003-build_lfs-system.md)]
