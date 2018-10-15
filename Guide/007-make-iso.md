@@ -174,6 +174,7 @@ cd ../..
 ### 8.封装LFS系统
 *准备安装脚本*
 获取[安装脚本](scripts/install.sh)
+
 *拷贝安装脚本、LFS文件系统、内核文件到镜像目录*
 ```bash
 cd $WORK
