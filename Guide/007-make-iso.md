@@ -241,6 +241,7 @@ find . -type f -print0 | xargs -0 md5sum | grep -v "\./md5sum.txt" > md5sum.txt
 popd
 ```
 *生成ISO镜像*
+```bash
 pushd image
 mkisofs -r -V "LFS-x86_64" -cache-inodes -J -l -b isolinux/isolinux.bin \
     -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table \
