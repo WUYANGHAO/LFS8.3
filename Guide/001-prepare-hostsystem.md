@@ -63,5 +63,6 @@ mount /dev/sda1 $LFS/boot
 mkdir -v $LFS/sources
 chmod -v a+wt $LFS/sources
 ```
-### 9、下载校验软件包
+### 9、下载并校验软件包
+*获取[lfs8.3源代码包](http://mirror.jaleco.com/lfs/pub/lfs/lfs-packages/lfs-packages-8.3.tar)*
 
