@@ -2,7 +2,7 @@
 cd $LFS/sources &&
 tar zxvf expect5.45.4.tar.gz &&
 cd expect5.45.4 &&
-cp -v configure{,.orig}
+cp -v configure{,.orig} &&
 sed 's:/usr/local/bin:/bin:' configure.orig > configure &&
 ./configure --prefix=/tools       \
             --with-tcl=/tools/lib \
