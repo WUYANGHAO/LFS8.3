@@ -1,6 +1,6 @@
 # 准备宿主系统
 -----------------------------------------------------------
-[[上一页](/README.md)] [[下一页](002-prepare-tmp-system.md)]
+*[[上一页](/README.md)] [[下一页](002-prepare-tmp-system.md)]*
 -----------------------------------------------------------
 ### 1、下载Ubuntu系统
 下载[Ubuntu系统](https://www.ubuntu.com/download/desktop)
@@ -115,4 +115,4 @@ EOF
 source ~/.bash_profile
 ```
 -----------------------------------------------------------
-[[上一页](/README.md)] [[下一页](002-prepare-tmp-system.md)]
+*[[上一页](/README.md)] [[下一页](002-prepare-tmp-system.md)]*
