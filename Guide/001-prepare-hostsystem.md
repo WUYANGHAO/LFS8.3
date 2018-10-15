@@ -18,11 +18,11 @@ bash version-check.sh
 ```bash
 apt-get install bison gawk g++ make texinfo
 ```
-*调整dash为bash*
+*调整dash为bash(选择NO)*
 ```bash
-dpkg-reconfigure dash  *选择NO*
+dpkg-reconfigure dash
 ```
-### 5、创建分区系统（sda为例）
+### 6、创建分区系统（sda为例）
 ```bash
 fdisk /dev/sda
 n
@@ -46,13 +46,13 @@ p
 
 w
 ```
-### 6、格式化分区
+### 7、格式化分区
 ```bash
 mkfs.ext2 /dev/sda1
 mkswap /dev/sda2
 mkfs.ext4 /dev/sda3
 ```
-### 7、创建lfs系统目录并挂载分区
+### 8、创建lfs系统目录并挂载分区
 ```bash
 export LFS=/mnt/lfs
 mkdir -pv $LFS
