@@ -19,31 +19,31 @@ echo $LFS
 #### 4.[Glibc-2.28](tmp-system/004-glibc.md)———4.7 SBU
 #### 5.[Libstdc++ from GCC-8.2.0](tmp-system/005-libstdc++.md)———0.5 SBU
 #### 6.[Binutils-2.31.1 - Pass 2](tmp-system/006-binutils-paas2.md)———1.1 SBU
-#### 7.[GCC-8.2.0 - Pass 2](tmp-system/007-gcc-pass2.md)
-#### 8.[Tcl-8.6.8](tmp-system/008-tcl.md)
-#### 9.[Expect-5.45.4](tmp-system/009-expect.md)
-#### 10.[DejaGNU-1.6.1](tmp-system/010-dejagnu.md)
-#### 11.[M4-1.4.18](tmp-system/011-m4.md)
-#### 12.[Ncurses-6.1](tmp-system/012-ncurses.md)
-#### 13.[Bash-4.4.18](tmp-system/013-bash.md)
-#### 14.[Bison-3.0.5](tmp-system/014-bison.md)
-#### 15.[Bzip2-1.0.6](tmp-system/015-bzip.md)
-#### 16.[Coreutils-8.30](tmp-system/016-coreutils.md)
-#### 17.[Diffutils-3.6](tmp-system/017-diffutils.md)
-#### 18.[File-5.34](tmp-system/018-file.md)
-#### 19.[Findutils-4.6.0](tmp-system/019-findutils.md)
-#### 20.[Gawk-4.2.1](tmp-system/020-gawk.md)
-#### 21.[Gettext-0.19.8.1](tmp-system/021-gettext.md)
-#### 22.[Grep-3.1](tmp-system/022-grep.md)
-#### 23.[Gzip-1.9](tmp-system/023-gzip.md)
-#### 24.[Make-4.2.1](tmp-system/024-make.md)
-#### 25.[Patch-2.7.6](tmp-system/025-patch.md)
-#### 26.[Perl-5.28.0](tmp-system/026-perl.md)
-#### 27.[Sed-4.5](tmp-system/027-sed.md)
-#### 28.[Tar-1.30](tmp-system/028-tar.md)
-#### 29.[Texinfo-6.5](tmp-system/029-texinfo.md)
-#### 30.[Util-linux-2.32.1](tmp-system/030-util.md)
-#### 31.[Xz-5.2.4](tmp-system/031-xz.com)
+#### 7.[GCC-8.2.0 - Pass 2](tmp-system/007-gcc-pass2.md)———11 SBU
+#### 8.[Tcl-8.6.8](tmp-system/008-tcl.md)———0.9 SBU
+#### 9.[Expect-5.45.4](tmp-system/009-expect.md)———0.1 SBU
+#### 10.[DejaGNU-1.6.1](tmp-system/010-dejagnu.md)——— <0.1 SBU
+#### 11.[M4-1.4.18](tmp-system/011-m4.md)———0.2 SBU
+#### 12.[Ncurses-6.1](tmp-system/012-ncurses.md)———0.6 SBU
+#### 13.[Bash-4.4.18](tmp-system/013-bash.md)———0.4 SBU
+#### 14.[Bison-3.0.5](tmp-system/014-bison.md)———0.3 SBU
+#### 15.[Bzip2-1.0.6](tmp-system/015-bzip.md)——— <0.1 SBU
+#### 16.[Coreutils-8.30](tmp-system/016-coreutils.md)———0.7 SBU
+#### 17.[Diffutils-3.6](tmp-system/017-diffutils.md)———0.2 SBU
+#### 18.[File-5.34](tmp-system/018-file.md)———0.1 SBU
+#### 19.[Findutils-4.6.0](tmp-system/019-findutils.md)———0.3 SBU
+#### 20.[Gawk-4.2.1](tmp-system/020-gawk.md)———0.2 SBU
+#### 21.[Gettext-0.19.8.1](tmp-system/021-gettext.md)———0.9 SBU
+#### 22.[Grep-3.1](tmp-system/022-grep.md)———0.2 SBU
+#### 23.[Gzip-1.9](tmp-system/023-gzip.md)———0.1 SBU
+#### 24.[Make-4.2.1](tmp-system/024-make.md)———0.1 SBU
+#### 25.[Patch-2.7.6](tmp-system/025-patch.md)———0.2 SBU
+#### 26.[Perl-5.28.0](tmp-system/026-perl.md)———1.5 SBU
+#### 27.[Sed-4.5](tmp-system/027-sed.md)———0.2 SBU
+#### 28.[Tar-1.30](tmp-system/028-tar.md)———0.4 SBU
+#### 29.[Texinfo-6.5](tmp-system/029-texinfo.md)———0.2 SBU
+#### 30.[Util-linux-2.32.1](tmp-system/030-util.md)———1 SBU
+#### 31.[Xz-5.2.4](tmp-system/031-xz.com)———0.2 SBU
 #### 32.[Stripping](tmp-system/032-stripping.md)
 #### 33.[Changing Ownership](tmp-system/033-change-ownership.md)
 ------------------------------------------------
