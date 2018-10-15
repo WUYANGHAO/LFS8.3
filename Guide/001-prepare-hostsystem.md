@@ -51,6 +51,7 @@ w
 mkfs.ext2 /dev/sda1
 mkswap /dev/sda2
 mkfs.ext4 /dev/sda3
+swapon -v /dev/sda2
 ```
 ### 8、创建lfs系统目录并挂载分区
 ```bash
@@ -59,3 +60,8 @@ mkdir -pv $LFS
 mount /dev/sda3 $LFS
 mkdir -pv $LFS/boot
 mount /dev/sda1 $LFS/boot
+mkdir -v $LFS/sources
+chmod -v a+wt $LFS/sources
+```
+### 9、下载校验软件包
+
