@@ -10,7 +10,7 @@ apt-get update
 apt-get upgrade
 ```
 ### 5、检查并安装必备软件
-*检查*
+*检查(获取[version-check.sh](../Scripts/version-check.sh))*
 ```bash
 bash version-check.sh
 ```
