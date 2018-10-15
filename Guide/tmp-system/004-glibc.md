@@ -13,7 +13,7 @@ cd       build &&
       libc_cv_forced_unwind=yes          \
       libc_cv_c_cleanup=yes &&
 make &&
-make install &&
+make install
 ```
 *检查*
 ```bash
