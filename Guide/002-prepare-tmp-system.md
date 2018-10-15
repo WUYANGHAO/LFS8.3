@@ -17,8 +17,8 @@ echo $LFS
 #### 2.[GCC-8.2.0 - Pass 1](tmp-system/002-gcc-pass1.md)———14.3 SBU
 #### 3.[Linux-4.18.5 API Headers](tmp-system/003-linux-header.md)———0.1 SBU
 #### 4.[Glibc-2.28](tmp-system/004-glibc.md)———4.7 SBU
-#### 5.[Libstdc++ from GCC-8.2.0](tmp-system/005-libstdc++.md)
-#### 6.[Binutils-2.31.1 - Pass 2](tmp-system/006-binutils-paas2.md)
+#### 5.[Libstdc++ from GCC-8.2.0](tmp-system/005-libstdc++.md)———0.5 SBU
+#### 6.[Binutils-2.31.1 - Pass 2](tmp-system/006-binutils-paas2.md)———1.1 SBU
 #### 7.[GCC-8.2.0 - Pass 2](tmp-system/007-gcc-pass2.md)
 #### 8.[Tcl-8.6.8](tmp-system/008-tcl.md)
 #### 9.[Expect-5.45.4](tmp-system/009-expect.md)
