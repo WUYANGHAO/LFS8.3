@@ -12,10 +12,11 @@ su - lfs
 echo $LFS
 ```
 ### 编译
-#### 1.[Binutils-2.31.1 - Pass 1](tmp-system/001-binutils-pass1.md)
-#### 2.[GCC-8.2.0 - Pass 1](tmp-system/002-gcc-pass1.md)
-#### 3.[Linux-4.18.5 API Headers](tmp-system/003-linux-header.md)
-#### 4.[Glibc-2.28](tmp-system/004-glibc.md)
+*SBU 时间单位，以编译binutils为一个单位*
+#### 1.[Binutils-2.31.1 - Pass 1](tmp-system/001-binutils-pass1.md)———1 SBU
+#### 2.[GCC-8.2.0 - Pass 1](tmp-system/002-gcc-pass1.md)———14.3 SBU
+#### 3.[Linux-4.18.5 API Headers](tmp-system/003-linux-header.md)———0.1 SBU
+#### 4.[Glibc-2.28](tmp-system/004-glibc.md)———4.7 SBU
 #### 5.[Libstdc++ from GCC-8.2.0](tmp-system/005-libstdc++.md)
 #### 6.[Binutils-2.31.1 - Pass 2](tmp-system/006-binutils-paas2.md)
 #### 7.[GCC-8.2.0 - Pass 2](tmp-system/007-gcc-pass2.md)
