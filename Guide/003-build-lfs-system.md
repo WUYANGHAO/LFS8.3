@@ -108,24 +108,24 @@ chmod -v 664  /var/log/lastlog
 chmod -v 600  /var/log/btmp
 ```
 ### 编译安装软件
-#### 1.[Linux-4.18.5 API Headers](lfs-system/001-linux-header.md)
-#### 2.[Man-pages-4.16](lfs-system/002-man.md)
-#### 3.[Glibc-2.28](lfs-system/003-glibc.md)
+#### 1.[Linux-4.18.5 API Headers](lfs-system/001-linux-header.md)—— <0.1 SBU
+#### 2.[Man-pages-4.16](lfs-system/002-man.md)—— <0.1 SBU
+#### 3.[Glibc-2.28](lfs-system/003-glibc.md)—— 24 SBU
 #### 4.[调整工具链](lfs-system/004-adjust-tool.md)
-#### 5.[](lfs-system/)
-#### 6.[](lfs-system/)
-#### 7.[](lfs-system/)
-#### 8.[](lfs-system/)
-#### 9.[](lfs-system/)
-#### 10.[](lfs-system/)
-#### 11.[](lfs-system/)
-#### 12.[](lfs-system/)
-#### 13.[](lfs-system/)
-#### 14.[](lfs-system/)
-#### 15.[](lfs-system/)
-#### 16.[](lfs-system/)
-#### 17.[](lfs-system/)
-#### 18.[](lfs-system/)
+#### 5.[Zlib-1.2.11](lfs-system/005-zlib.md)—— <0.1 SBU
+#### 6.[File-5.34](lfs-system/006-file.md)—— 0.1 SBU
+#### 7.[Readline-7.0](lfs-system/007-readline.md)—— 0.1 SBU
+#### 8.[M4-1.4.18](lfs-system/008-m4.md)—— 0.4 SBU
+#### 9.[Bc-1.07.1](lfs-system/009-bc.md)—— 0.1 SBU
+#### 10.[Binutils-2.31.1](lfs-system/010-binutils.md)—— 6.6 SBU
+#### 11.[GMP-6.1.2](lfs-system/011-gmp.md)—— 1.3 SBU
+#### 12.[MPFR-4.0.1](lfs-system/012-mpfr.md)—— 1.1 SBU
+#### 13.[MPC-1.1.0](lfs-system/013-mpc.md)—— 0.3 SBU
+#### 14.[Shadow-4.6](lfs-system/014-shadow.md)—— 0.2 SBU
+#### 15.[GCC-8.2.0](lfs-system/015-gcc.md)—— 92 SBU
+#### 16.[Bzip2-1.0.6](lfs-system/016-bzip2.md)—— <0.1 SBU
+#### 17.[Pkg-config-0.29.2](lfs-system/017-pkgconfig.md)—— 0.4 SBU
+#### 18.[Ncurses-6.1](lfs-system/018-ncurses.md)—— 0.4 SBU
 #### 19.[](lfs-system/)
 #### 20.[](lfs-system/)
 #### 21.[](lfs-system/)
